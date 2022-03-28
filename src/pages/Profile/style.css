@@ -1,0 +1,61 @@
+.profile {
+    width: 30vw;
+    margin: 30px auto;
+    border: 1px solid #061E34;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profileImage {
+    width: 50%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.profileItem {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.profileItem h3 {
+    flex-grow: 1;
+    margin: 0;
+}
+
+.profileItem p {
+    margin: 0;
+}
+
+.editIcon {
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.editIcon:hover {
+    transform: scale(1.1);
+}
+
+.deleteBtn {
+    padding: 10px 30px;
+    cursor: pointer;
+    background-color: tomato;
+    text-transform: uppercase;
+}
+
+.deleteBtn:hover {
+    background-color: #e3492d;
+}
+
+.changeForm {
+    width: 70%;
+    display: flex;
+}
+
+.changeForm input {
+    flex-grow: 1;
+}

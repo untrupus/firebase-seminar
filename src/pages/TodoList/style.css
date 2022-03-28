@@ -1,0 +1,43 @@
+.addTodo {
+    margin: 20px auto;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.addTodo input {
+    padding: 10px;
+    width: 90%;
+    outline: none;
+}
+
+.addTodo button {
+    width: 104px;
+    background-color: #061E34;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.todoItem {
+    display: flex;
+    margin: 10px auto;
+    width: 70%;
+    justify-content: space-between;
+}
+
+.todoTitle {
+    flex-grow: 1;
+    margin: 0;
+    padding: 10px;
+    border: 1px solid lightgrey;
+}
+
+.todoDone {
+    text-decoration: line-through;
+}
+
+.todoItem button {
+    width: 50px;
+    cursor: pointer;
+}

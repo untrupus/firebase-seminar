@@ -1,0 +1,70 @@
+.loginForm {
+    margin: 100px auto 0;
+    height: 450px;
+    width: 45%;
+    border: 1px solid lightgrey;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.loginForm h2 {
+    margin: 0;
+}
+
+.loginInput {
+    width: 80%;
+    padding: 15px;
+}
+
+.loginForm button {
+    padding: 10px;
+    text-transform: uppercase;
+    width: 80%;
+    background-color: #061E34;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.loginLink {
+    padding: 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    width: 80%;
+    background-color: #061E34;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.forgot {
+    cursor: pointer;
+}
+
+.forgot:hover {
+    text-decoration: underline;
+    color: #FCCB3D;
+}
+
+.googleContainer {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+}
+
+.googleLogo {
+    height: 20px;
+    margin-left: 10px;
+    width: auto;
+    cursor: pointer;
+}
+
+.googleLogo:hover {
+    transform: scale(1.1);
+}
